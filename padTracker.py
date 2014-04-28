@@ -8,8 +8,8 @@ import cv
 def nothing(x):
 	pass
 
-# NOTE: Insert 0 as argument into VideoCapture to use video feed from camera
-# NOTE: Insert absolute path to filename to use video file
+# NOTE: Insert 0 as argument into VideoCapture to use video feed from camera feed
+# NOTE: Insert absolute path to filename to read/use a video file instead of camera feed
 cap = cv2.VideoCapture(0)
 
 # Create trackbar window
